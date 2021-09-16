@@ -1,0 +1,15 @@
+{
+  "name": "iwakura-mdx-deck",
+  "version": "1.0.0",
+  "description": "Using mdx-deck app",
+  "main": "index.js",
+  "repository": "git@github.com:MasanoriIwakura/iwakura-mdx-deck.git",
+  "author": "MasanoriIwakura <hagobutler@yahoo.co.jp>",
+  "license": "MIT",
+  "scripts": {
+    "start": "mdx-deck index.mdx"
+  },
+  "devDependencies": {
+    "mdx-deck": "^4.1.1"
+  }
+}
