@@ -7,7 +7,8 @@
   "author": "MasanoriIwakura <hagobutler@yahoo.co.jp>",
   "license": "MIT",
   "scripts": {
-    "start": "mdx-deck index.mdx"
+    "start": "mdx-deck index.mdx",
+    "build": "mdx-deck build index.mdx"
   },
   "devDependencies": {
     "mdx-deck": "^4.1.1"
