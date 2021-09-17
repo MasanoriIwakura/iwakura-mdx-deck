@@ -16,7 +16,7 @@ yarn start
 
 スライドの修正
 
-`index.mdx` を編集することでスライドを更新できる。  
+`index.mdx` を編集することでスライドを更新できる。
 構文はMarkdown + JSX
 
 [参考:MDX](https://mdxjs.com/)
@@ -31,4 +31,17 @@ yarn start
 ---
 
 ## Test2
+```
+
+### テーマ変更
+
+[参考:Theming](https://github.com/jxnblk/mdx-deck/blob/master/docs/theming.md)
+
+既存テーマを使用する場合
+```js
+import { themes } from "mdx-deck"
+
+export const theme = themes.dark
+
+## Test1
 ```
